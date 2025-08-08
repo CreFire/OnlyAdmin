@@ -1,0 +1,8 @@
+addr: ":8080"
+debug: true
+db_url: "mongodb://localhost:27017"
+db_name: "tenantdb"
+jwt_secret: "change_this_to_a_real_secret"
+admin:
+  username: "admin"
+  password: "admin123456"  # 生产环境建议改复杂点
